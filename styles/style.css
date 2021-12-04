@@ -13,13 +13,49 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: relative;
+  display: flex;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
+.header__title {
+  color: #000000;
+  width: 730px;
+  font-size: 102px;
+  font-weight: bold;
+  z-index: 1;
+  margin: auto 0 auto 64px;
+  line-height: 96px;
+  }
+
+  .header__subtitle {
+    position: absolute;
+    z-index: 1;
+    left: 64px;
+    bottom: 30px;
+    width: 388px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .header__main-illustration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 765px;
+    height: 608px;
+    z-index: 1;
+  }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -29,3 +65,18 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.logo_place_header {
+width: 183px;
+height: 32px;
+z-index: 1;
+position: absolute;
+left: 64px;
+top: 30px;
+}
+
+.logo_place_footer {
+  width: 184px;
+  height: 36px;
+}
+
