@@ -308,19 +308,27 @@ margin-bottom: 0;
 .footer {
   min-height: 350px;
   background-color:  #1f1f1f;
-  border: 2px solid red;
   display: flex;
+}
+
+.footer__columns {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  position: relative
+  position: relative;
 }
 
 .logo_place_footer {
   width: 183px;
   height: 35px;
-  border: 2px solid red;
 }
 
 .footer__author {
@@ -328,23 +336,11 @@ margin-bottom: 0;
   font-size: 18px;
   font-weight: normal;
   color: #f2f2f2;
-  border: 2px solid red;
+  margin-top: 18px;
+  vertical-align: bottom;
   position: absolute;
   bottom: 0;
   left: 0;
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
-
-.footer__columns {
-  width: 90%;
-  border: 2px solid red;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: auto;
-  display: flex;
-  margin-top: 60px;
-  margin-bottom: 40px;
 }
 
 .footer__column-heading {
@@ -352,7 +348,6 @@ margin-bottom: 0;
   font-size: 18px;
   font-weight: bold;
   color: #f2f2f2;
-  border: 2px solid red;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -363,6 +358,21 @@ margin-bottom: 0;
   font-weight: normal;
   color: #f2f2f2;
   text-decoration: none;
-  border: 2px solid red;
   margin-bottom: 16px;
+  height: 10px;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__list-element {
+  list-style: none;
+}
+
+.footer__column-links {
+  padding: 0;
+  margin-bottom: 16px;
+  margin-top: 0;
 }
