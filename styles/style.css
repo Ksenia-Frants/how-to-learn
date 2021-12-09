@@ -182,7 +182,7 @@ margin: 20px 0 0;
 }
 
 .feynman__illustration {
-  height: 637px;
+  min-height: 637px;
   width: 867px;
   margin-top: -244px;
 }
