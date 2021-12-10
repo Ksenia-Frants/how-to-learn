@@ -16,7 +16,6 @@
   position: relative;
   display: flex;
   background-color: #f2f2f2;
-  margin-bottom: 100px;
   /* выше установили ограничения для секции */
 }
 
@@ -77,7 +76,7 @@
 .description {
   display: flex;
   min-height: 400px;
-  margin-bottom: 100px;
+  padding: 100px 0;
   }
 
 .two-columns {
@@ -123,8 +122,9 @@ margin: 0;
 
 .digits {
 display: flex;
-min-height: 650px;
+min-height: 550px;
 flex-direction: column;
+padding-bottom: 100px;
 }
 
 .section-title {
@@ -147,7 +147,7 @@ flex-direction: column;
 
 .table {
   width: 1100px;
-  margin: 0 auto 100px;
+  margin: 0 auto;
   flex-direction: row;
   display: flex;
   justify-content: space-between;
@@ -218,11 +218,12 @@ margin: 20px 0 0;
 
 .kaufman {
   display: flex;
-  min-height: 709px;
+  min-height: 509px;
   flex-direction: column;
   background-color:  #1f1f1f;
   position: relative;
   overflow: hidden;
+  padding: 90px 0;
 }
 
 .section-title_theme_dark {
@@ -230,7 +231,7 @@ margin: 20px 0 0;
   font-size: 60px;
   font-weight: bold;
   width: 60%;
-  margin: 90px auto 20px;
+  margin: 0 auto 20px;
   text-align: center;
   color: white;
   z-index: 1;
@@ -248,7 +249,7 @@ margin: 20px 0 0;
 }
 
 .table_theme_dark {
-  margin: 0 auto 90px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -297,10 +298,11 @@ margin: 20px 0 0;
 
 .footer__columns {
   width: 90%;
-  margin: 60px auto 40px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 60px 0 40px;
 }
 
 .footer__column_content_copyright {
@@ -311,7 +313,7 @@ margin: 20px 0 0;
 .logo_place_footer {
   width: 183px;
   height: 35px;
-  margin-bottom: 141px;
+  margin-bottom: 137px;
 }
 
 .footer__author {
