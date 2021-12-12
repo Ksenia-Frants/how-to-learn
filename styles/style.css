@@ -165,6 +165,7 @@ padding-bottom: 100px;
   justify-content: space-between;
   flex-wrap: wrap;
   list-style-type: none;
+  padding-left: 0;
 }
 
 .table__cell {
@@ -285,6 +286,7 @@ margin: 20px 0 0;
   font-weight: normal;
   z-index: 1;
   margin: 0;
+
 }
 
 .kaufman__triangle {
