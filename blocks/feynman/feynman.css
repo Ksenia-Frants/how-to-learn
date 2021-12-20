@@ -1,6 +1,6 @@
 .feynman {
   display:flex;
-  height: 890px;
+  min-height: 890px;
   position: relative;
   flex-direction: column;
   background-color: #f2f2f2;
