@@ -1,4 +1,4 @@
-# Alt-How-to-learn
+# How-to-learn
 This is my first project work. This project helped me learn how to typeset.
 
 My project talks about modern and effective studying methods. It shares information on studying techniques from Barbara Oakley, offers a couple of educational videos on procrastination, tells about the Feynman method(how to learn and not forget the material), demonstrates facts and figures about study and the brain, shares a helpful book from Salman Khan, explains Learning Principles from Josh Kaufman and provides additional helpful resources on learning techniques and life hacks.
