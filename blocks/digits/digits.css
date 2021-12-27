@@ -1,6 +1,5 @@
 .digits {
   display: flex;
-  min-height: 550px;
   flex-direction: column;
   padding: 100px 0;
   }
