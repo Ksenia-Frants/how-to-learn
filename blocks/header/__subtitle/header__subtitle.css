@@ -10,3 +10,10 @@
   font-weight: normal;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
